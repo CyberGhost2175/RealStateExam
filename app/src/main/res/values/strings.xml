@@ -3,4 +3,10 @@
     <string name="intro_title">Find Your Dream House\nAt the best price</string>
     <string name="intro_desc">We\'re here for every homeownership\nmove you face</string>
     <string name="intro_startBtn_text">Let\'s start</string>
+    <string name="main_search_input">Search for...</string>
+    <string name="default_name">Dulatbay Akhan</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="villa">Villa</string>
+    <string name="description">Description</string>
+    <string name="buy_now">Buy now</string>
 </resources>

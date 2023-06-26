@@ -1,0 +1,70 @@
+[
+  {
+    "states": {
+      "popular": [
+        {
+          "title": "House with a good view",
+          "address": "123 Street",
+          "description": "A house with a magnificent view is a perfect choice for those seeking tranquility and natural beauty. Imagine waking up to breathtaking vistas of rolling hills and lush greenery right outside your window. The panoramic scenery provides a sense of serenity and inspiration, making it an ideal retreat for nature lovers. Whether it's a sunrise or a sunset, each moment offers a picturesque tableau that can be admired from the comfort of your own home. This serene setting creates a peaceful ambiance, allowing you to unwind and recharge amidst the beauty of nature. With its stunning vistas, the house becomes a sanctuary where you can escape the hustle and bustle of daily life and truly connect with the surrounding environment. Whether you're enjoying a cup of coffee on the patio or hosting gatherings with loved ones, the mesmerizing view serves as a captivating backdrop, enhancing every experience. Indulge in the joy of watching birds soar through the sky, witnessing the changing colors of the seasons, and feeling the refreshing breeze brush against your skin. This house with a view embodies the perfect harmony between comfort and nature, offering an idyllic living space that truly feels like home.",
+          "bed": 3,
+          "bath": 2,
+          "price": 250000,
+          "pic": "pic1",
+          "wife": true
+        },
+        {
+          "title": "Big Apartment",
+          "address": "456 Avenue",
+          "description": "A house with a magnificent view is a perfect choice for those seeking tranquility and natural beauty. Imagine waking up to breathtaking vistas of rolling hills and lush greenery right outside your window. The panoramic scenery provides a sense of serenity and inspiration, making it an ideal retreat for nature lovers. Whether it's a sunrise or a sunset, each moment offers a picturesque tableau that can be admired from the comfort of your own home. This serene setting creates a peaceful ambiance, allowing you to unwind and recharge amidst the beauty of nature. With its stunning vistas, the house becomes a sanctuary where you can escape the hustle and bustle of daily life and truly connect with the surrounding environment. Whether you're enjoying a cup of coffee on the patio or hosting gatherings with loved ones, the mesmerizing view serves as a captivating backdrop, enhancing every experience. Indulge in the joy of watching birds soar through the sky, witnessing the changing colors of the seasons, and feeling the refreshing breeze brush against your skin. This house with a view embodies the perfect harmony between comfort and nature, offering an idyllic living space that truly feels like home.",
+          "bed": 2,
+          "bath": 1,
+          "price": 150000,
+          "pic": "pic2",
+          "wife": false
+        },
+        {
+          "title": "ALIGARH Villa",
+          "address": "789 Road",
+          "description": "A house with a magnificent view is a perfect choice for those seeking tranquility and natural beauty. Imagine waking up to breathtaking vistas of rolling hills and lush greenery right outside your window. The panoramic scenery provides a sense of serenity and inspiration, making it an ideal retreat for nature lovers. Whether it's a sunrise or a sunset, each moment offers a picturesque tableau that can be admired from the comfort of your own home. This serene setting creates a peaceful ambiance, allowing you to unwind and recharge amidst the beauty of nature. With its stunning vistas, the house becomes a sanctuary where you can escape the hustle and bustle of daily life and truly connect with the surrounding environment. Whether you're enjoying a cup of coffee on the patio or hosting gatherings with loved ones, the mesmerizing view serves as a captivating backdrop, enhancing every experience. Indulge in the joy of watching birds soar through the sky, witnessing the changing colors of the seasons, and feeling the refreshing breeze brush against your skin. This house with a view embodies the perfect harmony between comfort and nature, offering an idyllic living space that truly feels like home.",
+          "bed": 5,
+          "bath": 4,
+          "price": 500000,
+          "pic": "pic_new_1",
+          "wife": true
+        }
+      ],
+      "new": [
+        {
+          "title": "Cozy Cottage",
+          "address": "789 Lane",
+          "description": "A house with a magnificent view is a perfect choice for those seeking tranquility and natural beauty. Imagine waking up to breathtaking vistas of rolling hills and lush greenery right outside your window. The panoramic scenery provides a sense of serenity and inspiration, making it an ideal retreat for nature lovers. Whether it's a sunrise or a sunset, each moment offers a picturesque tableau that can be admired from the comfort of your own home. This serene setting creates a peaceful ambiance, allowing you to unwind and recharge amidst the beauty of nature. With its stunning vistas, the house becomes a sanctuary where you can escape the hustle and bustle of daily life and truly connect with the surrounding environment. Whether you're enjoying a cup of coffee on the patio or hosting gatherings with loved ones, the mesmerizing view serves as a captivating backdrop, enhancing every experience. Indulge in the joy of watching birds soar through the sky, witnessing the changing colors of the seasons, and feeling the refreshing breeze brush against your skin. This house with a view embodies the perfect harmony between comfort and nature, offering an idyllic living space that truly feels like home.",
+          "bed": 2,
+          "bath": 1,
+          "pic": "pic1",
+          "price": 120000,
+          "wifi": true
+        },
+        {
+          "title": "Luxury Penthouse",
+          "address": "456 Sky Avenue",
+          "description": "A house with a magnificent view is a perfect choice for those seeking tranquility and natural beauty. Imagine waking up to breathtaking vistas of rolling hills and lush greenery right outside your window. The panoramic scenery provides a sense of serenity and inspiration, making it an ideal retreat for nature lovers. Whether it's a sunrise or a sunset, each moment offers a picturesque tableau that can be admired from the comfort of your own home. This serene setting creates a peaceful ambiance, allowing you to unwind and recharge amidst the beauty of nature. With its stunning vistas, the house becomes a sanctuary where you can escape the hustle and bustle of daily life and truly connect with the surrounding environment. Whether you're enjoying a cup of coffee on the patio or hosting gatherings with loved ones, the mesmerizing view serves as a captivating backdrop, enhancing every experience. Indulge in the joy of watching birds soar through the sky, witnessing the changing colors of the seasons, and feeling the refreshing breeze brush against your skin. This house with a view embodies the perfect harmony between comfort and nature, offering an idyllic living space that truly feels like home.",
+          "bed": 4,
+          "bath": 3,
+          "price": 850000,
+          "pic": "pic1",
+          "wifi": true
+        },
+        {
+          "title": "Mountain Retreat",
+          "address": "321 Summit Road",
+          "description": "A house with a magnificent view is a perfect choice for those seeking tranquility and natural beauty. Imagine waking up to breathtaking vistas of rolling hills and lush greenery right outside your window. The panoramic scenery provides a sense of serenity and inspiration, making it an ideal retreat for nature lovers. Whether it's a sunrise or a sunset, each moment offers a picturesque tableau that can be admired from the comfort of your own home. This serene setting creates a peaceful ambiance, allowing you to unwind and recharge amidst the beauty of nature. With its stunning vistas, the house becomes a sanctuary where you can escape the hustle and bustle of daily life and truly connect with the surrounding environment. Whether you're enjoying a cup of coffee on the patio or hosting gatherings with loved ones, the mesmerizing view serves as a captivating backdrop, enhancing every experience. Indulge in the joy of watching birds soar through the sky, witnessing the changing colors of the seasons, and feeling the refreshing breeze brush against your skin. This house with a view embodies the perfect harmony between comfort and nature, offering an idyllic living space that truly feels like home.",
+          "bed": 3,
+          "bath": 2,
+          "price": 300000,
+          "pic": "pic1",
+          "wifi": false
+        }
+      ]
+    }
+  }
+]

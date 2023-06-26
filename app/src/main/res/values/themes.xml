@@ -1,6 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.RealStateExamApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryVariant">#858585</item>
+        <item name="colorPrimary">#858585</item>
     </style>
 
     <style name="Theme.RealStateExamApp" parent="Base.Theme.RealStateExamApp" />
