@@ -9,4 +9,19 @@
     <string name="villa">Villa</string>
     <string name="description">Description</string>
     <string name="buy_now">Buy now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="settings">settings</string>
+    <string name="favourites">favourites</string>
+    <string name="profile">profile</string>
+    <string name="see_all_category">See all</string>
+    <string name="new_category">New</string>
+    <string name="popular_category">Popular</string>
+    <string name="apartment_type_description">If you\'re tired of large houses, apartments are the perfect choice. Offering comfort and style, they provide convenience and accessibility in a compact format, ideal for modern living. Enjoy a hassle-free lifestyle in these comfortable and stylish living spaces.</string>
+    <string name="home_type_description">Transform your house into a dream home with our wide range of home decor and improvement solutions. From stunning furniture pieces to exquisite decorations, we have everything you need to create a space that reflects your personal style and enhances your living experience. Make your house a home with our exceptional selection.</string>
+    <string name="office_type_description">Upgrade your office space with our premium collection of modern and functional office furniture and accessories. Create a professional and inspiring work environment that promotes productivity and creativity. From sleek desks and ergonomic chairs to stylish storage solutions, we have everything you need to elevate your office aesthetics and optimize your workflow. Enhance your workspace with our exceptional office essentials.</string>
+    <string name="villa_type_description">Experience luxury living at its finest with our exquisite collection of villas. Indulge in spacious and opulent interiors, stunning architecture, and breathtaking views. Each villa is meticulously designed to provide the utmost comfort, privacy, and sophistication. Whether you\'re seeking a serene retreat or a lavish entertainment space, our villas offer the perfect blend of elegance and functionality. Immerse yourself in the epitome of luxury living and create unforgettable memories in your own private oasis.</string>
+    <string name="apartment">Apartment</string>
+    <string name="office">Office</string>
 </resources>

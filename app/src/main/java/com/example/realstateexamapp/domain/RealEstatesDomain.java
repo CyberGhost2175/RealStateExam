@@ -1,26 +1,31 @@
-package com.example.realstateexamapp.Domain;
+package com.example.realstateexamapp.domain;
 
 import java.io.Serializable;
+import java.util.List;
 
-public class ItemsDomain implements Serializable {
-
+public class RealEstatesDomain implements Serializable {
+    private Long id;
     private String title;
     private String address;
     private String description;
     private int bed;
     private int bath;
     private int price;
-    private String pic;
+    private String titlePicture;
     private boolean wife;
+    private String category;
 
-    public ItemsDomain(String title, String address, String description, int bed, int bath, int price, String pic, boolean wife) {
+    private String type;
+
+    private List<String> pictures;
+    public RealEstatesDomain(String title, String address, String description, int bed, int bath, int price, String pic, boolean wife) {
         this.title = title;
         this.address = address;
         this.description = description;
         this.bed = bed;
         this.bath = bath;
         this.price = price;
-        this.pic = pic;
+        this.titlePicture = pic;
         this.wife = wife;
     }
 
@@ -72,12 +77,12 @@ public class ItemsDomain implements Serializable {
         this.price = price;
     }
 
-    public String getPic() {
-        return pic;
+    public String getTitlePicture() {
+        return titlePicture;
     }
 
-    public void setPic(String pic) {
-        this.pic = pic;
+    public void setTitlePicture(String titlePicture) {
+        this.titlePicture = titlePicture;
     }
 
     public boolean isWife() {

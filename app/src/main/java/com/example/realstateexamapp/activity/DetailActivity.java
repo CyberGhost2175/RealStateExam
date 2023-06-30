@@ -1,7 +1,6 @@
-package com.example.realstateexamapp.Activity;
+package com.example.realstateexamapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.graphics.drawable.Drawable;
@@ -11,8 +10,10 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestBuilder;
-import com.example.realstateexamapp.Domain.ItemsDomain;
+import com.example.realstateexamapp.domain.RealEstatesDomain;
 import com.example.realstateexamapp.R;
+import com.example.realstateexamapp.service.RetrofitService;
+import com.squareup.picasso.Picasso;
 
 import java.text.DecimalFormat;
 
@@ -25,7 +26,7 @@ public class DetailActivity extends AppCompatActivity {
     private TextView wifiText;
     private TextView bedText;
     private TextView bathText;
-    private ItemsDomain item;
+    private RealEstatesDomain item;
     private ImageView pic;
 
     private DecimalFormat formatter = new DecimalFormat("###,###,###,##");
@@ -39,8 +40,9 @@ public class DetailActivity extends AppCompatActivity {
         setVariable();
     }
 
+    @SuppressLint("SetTextI18n")
     private void setVariable() {
-        this.item = (ItemsDomain) getIntent().getSerializableExtra("object");
+        this.item = (RealEstatesDomain) getIntent().getSerializableExtra("object");
         titleText.setText(item.getTitle());
         addressText.setText(item.getAddress());
         priceText.setText("$" + formatter.format(item.getPrice()));
@@ -54,12 +56,7 @@ public class DetailActivity extends AppCompatActivity {
         } else {
             wifiText.setText("Not Wifi");
         }
-        @SuppressLint("DiscouragedApi") int drawableResourceId = getResources().getIdentifier(item.getPic(), "drawable", getPackageName());
-
-        RequestBuilder<Drawable> glide = Glide.with(this)
-                .load(drawableResourceId);
-        glide.into(this.pic);
-
+        Picasso.get().load(RetrofitService.getDownloadFileUrl(item.getTitlePicture())).into(pic);
     }
 
 

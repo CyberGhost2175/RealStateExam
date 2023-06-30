@@ -1,4 +1,4 @@
-package com.example.realstateexamapp.Activity;
+package com.example.realstateexamapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,8 +11,6 @@ import com.example.realstateexamapp.R;
 
 public class IntroActivity extends AppCompatActivity {
 
-    private Button startButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,14 +20,14 @@ public class IntroActivity extends AppCompatActivity {
     }
 
     private void initStartButton(){
-        startButton = findViewById(R.id.startButton);
+        Button startButton = findViewById(R.id.startButton);
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(IntroActivity.this, MainActivity.class);
+
                 startActivity(intent);
             }
         });
     }
-
 }
